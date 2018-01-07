@@ -1,0 +1,47 @@
+{
+  "name": "kickstart",
+  "version": "0.1.0",
+  "description": "This repo can kickstart any project that needs a web, mobile, tablet or desktop application. The goal is to compose a fully working application from scratch using a common framework.",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "start-web": "cross-env NODE_ENV=development parcel -d build/web/dev src/web/public/index.html",
+    "build-web": "cross-env NODE_ENV=production parcel build -d build/web/prod src/web/public/index.html --public-url ./ --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmelton/kickstart.git"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
+        "flexbox": "no-2009"
+      }
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danmelton/kickstart/issues"
+  },
+  "homepage": "https://github.com/danmelton/kickstart#readme"
+}

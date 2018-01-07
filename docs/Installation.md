@@ -138,6 +138,14 @@ Outputs NVM_DIR and NVM_BIN
 
 Outputs installed versions, and you should be using the latest node.
 
+### Yarn
+
+We'll use Yarn instead of the default npm package manager. Its faster, uses checksums for security and caches.
+
+```
+> brew install yarn
+```
+
 ### Python
 
 We'll be using Python Version Manager to install and properly version our python environment. Unfortunately, python has breaking changes between 2.7.4 and 3.0 for many projects. It requires moving back and forth based on the directory.  Boo.
