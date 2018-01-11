@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.hooks=o,exports.setHookCallback=t;var e;function o(){return e.apply(null,arguments)}function t(o){e=o}"},"hash":"30b4455b2543be2f831520c3c52e92ca"}

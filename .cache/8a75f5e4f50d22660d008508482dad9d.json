@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";module.exports=function(t){t.Doughnut=function(u,n){return n.type=\"doughnut\",new t(u,n)}};"},"hash":"f3008a2508fb75cafa94a91dcb877f07"}

@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"module.exports={acquireContext:function(n){return n&&n.canvas&&(n=n.canvas),n&&n.getContext(\"2d\")||null}};"},"hash":"f72394b785815a0e48ebd241256c6d17"}

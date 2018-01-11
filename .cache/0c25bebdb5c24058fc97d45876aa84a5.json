@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./toNumber","loc":{"line":1,"column":23}}],"generated":{"js":"var r=require(\"./toNumber\"),e=1/0,u=1.7976931348623157e308;function t(t){if(!t)return 0===t?t:0;if((t=r(t))===e||t===-e){return(t<0?-1:1)*u}return t==t?t:0}module.exports=t;"},"hash":"e663147602d5b3eab2511b40d3db3a57"}

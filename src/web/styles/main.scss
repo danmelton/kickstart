@@ -1,3 +1,4 @@
+// Main.css
 @charset 'UTF-8';
 
 // 1. Configuration and helpers
@@ -8,7 +9,10 @@
 
 // 2. Vendors
 @import
-  'vendor/normalize';
+  'node_modules/bootstrap/scss/bootstrap',
+  'vendor/chart.js/chart',
+  'vendor/font-awesome/font-awesome',
+  'vendor/simple-line-icons/simple-line-icons';
 
 // 3. Base stuff
 @import
@@ -22,14 +26,19 @@
   'layout/header',
   'layout/footer';
 
+// 5. Component-specific styles
+// @import
+  // 'components/all';
+
 // 6. Themes
 @import
   'themes/default';
 
 // 7. Page-specific styles
 @import
-  'pages/main/home';
+  'pages/home',
+  'pages/app1';
 
-// 8. Component-specific styles
-@import
-  'components/main/_hellomessage';
+.app {
+  display: none;
+}

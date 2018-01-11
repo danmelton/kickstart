@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./from-anything","loc":{"line":1,"column":33}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.createUTC=r;var e=require(\"./from-anything\");function r(r,t,c,o){return(0,e.createLocalOrUTC)(r,t,c,o,!0).utc()}"},"hash":"1cd0b2ac98069b59b9f9498e14372504"}

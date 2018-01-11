@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"var t=\"[object Function]\",o=\"[object GeneratorFunction]\",n=Object.prototype,e=n.toString;function r(n){var r=c(n)?e.call(n):\"\";return r==t||r==o}function c(t){var o=typeof t;return!!t&&(\"object\"==o||\"function\"==o)}module.exports=r;"},"hash":"c38088c0237c51a269f70f598add1039"}

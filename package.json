@@ -6,37 +6,35 @@
     "doc": "docs"
   },
   "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "bootstrap": "4.0.0-beta.3",
+    "chart.js": "^2.7.1",
     "parcel-bundler": "^1.4.1",
+    "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-chartjs-2": "^2.6.4",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "reactstrap": "^5.0.0-alpha.4"
   },
   "devDependencies": {
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "cross-env": "^5.1.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "node-sass": "^4.7.2"
   },
   "scripts": {
-    "start-web": "cross-env NODE_ENV=development parcel -d build/web/dev src/web/public/index.html",
-    "build-web": "cross-env NODE_ENV=production parcel build -d build/web/prod src/web/public/index.html --public-url ./ --no-cache"
+    "start-web": "NODE_ENV=development parcel -d build/web/dev src/web/public/index.html ",
+    "build-web": "NODE_ENV=production parcel build -d build/web/prod src/web/public/index.html --public-url ./ --no-cache"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danmelton/kickstart.git"
-  },
-  "postcss": {
-    "modules": false,
-    "plugins": {
-      "autoprefixer": {
-        "browsers": [
-          ">1%",
-          "last 4 versions",
-          "Firefox ESR",
-          "not ie < 9"
-        ],
-        "flexbox": "no-2009"
-      }
-    }
   },
   "author": "",
   "license": "ISC",

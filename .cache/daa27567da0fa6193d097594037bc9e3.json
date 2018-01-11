@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.ordinal=t;var e=exports.defaultOrdinal=\"%d\",r=exports.defaultDayOfMonthOrdinalParse=/\\d{1,2}/;function t(e){return this._ordinal.replace(\"%d\",e)}"},"hash":"998c55ff5592a5301635f44e01b778e2"}
