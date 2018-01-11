@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = isObjectEmpty;\nfunction isObjectEmpty(obj) {\n  var k;\n  for (k in obj) {\n    // even if its not own property I'd still call it non-empty\n    return false;\n  }\n  return true;\n}"},"hash":"792d2313541b78d0a7c84fbc0dd0b18a"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./constructor","loc":{"line":1,"column":23}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.clone=r;var e=require(\"./constructor\");function r(){return new e.Moment(this)}"},"hash":"3ae0ee38bd664b440f999e07206f3712"}

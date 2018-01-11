@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";module.exports=function(e){e.PolarArea=function(r,t){return t.type=\"polarArea\",new e(r,t)}};"},"hash":"93c17ba3e3f407906b64ab26e2afae06"}

@@ -39,6 +39,9 @@
   'pages/home',
   'pages/app1';
 
+
 .app {
-  display: none;
+  h1 {
+    color: red;
+  }
 }
