@@ -23,6 +23,15 @@ import {
   Table
 } from 'reactstrap';
 
+import avatar1 from '../../public/images/avatars/1.jpg';
+import avatar2 from '../../public/images/avatars/2.jpg';
+import avatar3 from '../../public/images/avatars/3.jpg';
+import avatar4 from '../../public/images/avatars/4.jpg';
+import avatar5 from '../../public/images/avatars/5.jpg';
+import avatar6 from '../../public/images/avatars/6.jpg';
+import avatar7 from '../../public/images/avatars/7.jpg';
+import avatar8 from '../../public/images/avatars/8.jpg';
+
 const brandPrimary = '#20a8d8';
 const brandSuccess = '#4dbd74';
 const brandInfo = '#63c2de';
@@ -1006,7 +1015,7 @@ class Dashboard extends Component {
                   <tr>
                     <td className="text-center">
                       <div className="avatar">
-                        <img src={'../../../public/core/img/avatars/1.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                        <img src={avatar1} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                         <span className="avatar-status badge-success"></span>
                       </div>
                     </td>
@@ -1017,7 +1026,7 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td className="text-center">
-                      <img src={'../../../public/core/img/flags/USA.png'} alt="USA" style={{height: 24 + 'px'}}/>
+                      USA
                     </td>
                     <td>
                       <div className="clearfix">
@@ -1041,7 +1050,7 @@ class Dashboard extends Component {
                   <tr>
                     <td className="text-center">
                       <div className="avatar">
-                        <img src={'../../../public/core/img/avatars/2.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                        <img src={avatar2} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                         <span className="avatar-status badge-danger"></span>
                       </div>
                     </td>
@@ -1053,7 +1062,7 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td className="text-center">
-                      <img src={'../../../public/core/img/flags/Brazil.png'} alt="Brazil" style={{height: 24 + 'px'}}/>
+                      Brazil
                     </td>
                     <td>
                       <div className="clearfix">
@@ -1077,7 +1086,7 @@ class Dashboard extends Component {
                   <tr>
                     <td className="text-center">
                       <div className="avatar">
-                        <img src={'../../../public/core/img/avatars/3.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                        <img src={avatar3} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                         <span className="avatar-status badge-warning"></span>
                       </div>
                     </td>
@@ -1088,7 +1097,7 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td className="text-center">
-                      <img src={'../../../public/core/img/flags/India.png'} alt="India" style={{height: 24 + 'px'}}/>
+                      India
                     </td>
                     <td>
                       <div className="clearfix">
@@ -1112,7 +1121,7 @@ class Dashboard extends Component {
                   <tr>
                     <td className="text-center">
                       <div className="avatar">
-                        <img src={'../../../public/core/img/avatars/4.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                        <img src={avatar4} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                         <span className="avatar-status badge-secondary"></span>
                       </div>
                     </td>
@@ -1123,7 +1132,7 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td className="text-center">
-                      <img src={'../../../public/core/img/flags/France.png'} alt="France" style={{height: 24 + 'px'}}/>
+                      France
                     </td>
                     <td>
                       <div className="clearfix">
@@ -1147,7 +1156,7 @@ class Dashboard extends Component {
                   <tr>
                     <td className="text-center">
                       <div className="avatar">
-                        <img src={'../../../public/core/img/avatars/5.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                        <img src={avatar5} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                         <span className="avatar-status badge-success"></span>
                       </div>
                     </td>
@@ -1158,7 +1167,7 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td className="text-center">
-                      <img src={'../../../public/core/img/flags/Spain.png'} alt="Spain" style={{height: 24 + 'px'}}/>
+                      Spain
                     </td>
                     <td>
                       <div className="clearfix">
@@ -1182,7 +1191,7 @@ class Dashboard extends Component {
                   <tr>
                     <td className="text-center">
                       <div className="avatar">
-                        <img src={'../../../public/core/img/avatars/6.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                        <img src={avatar6} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                         <span className="avatar-status badge-danger"></span>
                       </div>
                     </td>
@@ -1193,7 +1202,7 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td className="text-center">
-                      <img src={'../../../public/core/img/flags/Poland.png'} alt="Poland" style={{height: 24 + 'px'}}/>
+                      Poland
                     </td>
                     <td>
                       <div className="clearfix">

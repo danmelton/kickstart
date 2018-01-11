@@ -2,6 +2,15 @@ import React, {Component} from 'react';
 import {TabContent, TabPane, Nav, NavItem, NavLink, Progress, Label, Input} from 'reactstrap';
 import classnames from 'classnames';
 
+import avatar1 from '../../public/images/avatars/1.jpg';
+import avatar2 from '../../public/images/avatars/2.jpg';
+import avatar3 from '../../public/images/avatars/3.jpg';
+import avatar4 from '../../public/images/avatars/4.jpg';
+import avatar5 from '../../public/images/avatars/5.jpg';
+import avatar6 from '../../public/images/avatars/6.jpg';
+import avatar7 from '../../public/images/avatars/7.jpg';
+import avatar8 from '../../public/images/avatars/8.jpg';
+
 class Aside extends Component {
   constructor(props) {
     super(props);
@@ -51,7 +60,7 @@ class Aside extends Component {
             <hr className="transparent mx-3 my-0"/>
             <div className="callout callout-warning m-0 py-3">
               <div className="avatar float-right">
-                <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
               </div>
               <div>Meeting with <strong>Lucas</strong></div>
               <small className="text-muted mr-3"><i className="icon-calendar"></i>&nbsp; 1 - 3pm</small>
@@ -60,7 +69,7 @@ class Aside extends Component {
             <hr className="mx-3 my-0"/>
             <div className="callout callout-info m-0 py-3">
               <div className="avatar float-right">
-                <img src={'images/avatars/4.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                <img src={avatar4} className="img-avatar" alt="admin@bootstrapmaster.com"/>
               </div>
               <div>Skype with <strong>Megan</strong></div>
               <small className="text-muted mr-3"><i className="icon-calendar"></i>&nbsp; 4 - 5pm</small>
@@ -77,19 +86,19 @@ class Aside extends Component {
               <small className="text-muted"><i className="icon-home"></i>&nbsp; creativeLabs HQ</small>
               <div className="avatars-stack mt-2">
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/2.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar2} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/3.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar3} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/4.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar4} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/5.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar5} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/6.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar6} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
               </div>
             </div>
@@ -106,25 +115,25 @@ class Aside extends Component {
               <small className="text-muted"><i className="icon-home"></i>&nbsp; creativeLabs HQ</small>
               <div className="avatars-stack mt-2">
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/2.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar2} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/3.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar3} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/4.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar4} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/5.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar5} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/6.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar6} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
                 <div className="avatar avatar-xs">
-                  <img src={'images/avatars/8.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar8} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                 </div>
               </div>
             </div>
@@ -134,7 +143,7 @@ class Aside extends Component {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="avatar">
-                  <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                   <span className="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -151,7 +160,7 @@ class Aside extends Component {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="avatar">
-                  <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                   <span className="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -168,7 +177,7 @@ class Aside extends Component {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="avatar">
-                  <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                   <span className="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -185,7 +194,7 @@ class Aside extends Component {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="avatar">
-                  <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                   <span className="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -202,7 +211,7 @@ class Aside extends Component {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="avatar">
-                  <img src={'images/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com"/>
+                  <img src={avatar7} className="img-avatar" alt="admin@bootstrapmaster.com"/>
                   <span className="avatar-status badge-success"></span>
                 </div>
               </div>
