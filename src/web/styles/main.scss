@@ -1,0 +1,26 @@
+// Main.css
+@charset 'UTF-8';
+
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+@import
+  'vendor/override_variables',
+  'node_modules/bootstrap/scss/bootstrap',
+  'vendor/chart.js/chart',
+  'vendor/font-awesome/font-awesome',
+  'vendor/simple-line-icons/simple-line-icons';
+
+// Component-specific styles
+@import
+  'components/all';
+
+// 6. Themes
+@import
+  'themes/default';
+
+// Overwrite Page-specific styles
+@import
+  'pages/all';
